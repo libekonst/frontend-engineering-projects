@@ -6,11 +6,15 @@ You will use the [Jikan API](https://jikan.moe/) to build an Anime collection ap
 
 ### Design
 
-The design: [link](www.figma.com)
+The design: https://www.figma.com/file/Rai0GbWXaH9fK1KN4bE6g8/AnimeFan?node-id=0%3A1
 
-You will need implement a responsive layout and provide a smooth experience to both desktop and mobile users. The design has differences in certain screen sizes but represents the same dataset and has the same functionality.
+You will implement a responsive layout and provide a smooth experience to both desktop and mobile users. The design has differences in certain screen sizes but represents the same dataset and has the same functionality.
 
-Follow the specs below to build the interface.
+- Primary color: `#EB5757`
+- Text and bullet color `#31353F`
+- Text color for card subtitles `#31353fcc`
+- Use the Material Icon font
+- The app bar and the top bars/bottom bars _don't_ scroll along with the document.
 
 ### Specs
 
@@ -32,13 +36,15 @@ Follow the specs below to build the interface.
 - Available titles are displayed as cards.
 - Only titles that have been shown on TV are displayed. The rest are omitted.
 - The title's rating is in a scale of 0 to 5.
+- If end date is missing, write **present** instead.
+- If episodes are missing, omit the field.
 - All cards have a **watchlist action button**.
   - If the title _is not_ in the user's list:
-    - The button says **Want to watch**.
+    - The button has a **plus icon** and says **Watchlist**.
     - Clicking the button adds the Anime title to the user's watchlist.
     - Hovering over the button shows a tooltip text that reads **Add to watchlist**.
   - If the title is in the user's list:
-    - The button has a **check-mark icon** to the left and says **Added to watchlist**.
+    - The button has a **check-mark icon** and says **Added**.
     - Clicking the button removes the title from the list
     - Hovering over the button shows a tooltip that reads **Remove from watchlist**.
 
@@ -78,3 +84,4 @@ Explore the response to determine how to satisfy the specs.
 - Add an AnimeTitleDetails screen
 - Add a search bar
 - Specify year and season
+- Dark theme
