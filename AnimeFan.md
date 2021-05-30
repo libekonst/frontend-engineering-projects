@@ -1,6 +1,6 @@
 # AnimeFan (◕‿◕)
 
-You will build an Anime collection app that lets users explore the top Anime titles and add them to their watchlist.
+You will use the [Jikan API](https://jikan.moe/) to build an Anime collection app that lets users explore top Anime titles and add them to their watchlist.
 
 ## Stage 1
 
