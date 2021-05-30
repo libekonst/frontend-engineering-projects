@@ -14,6 +14,7 @@ You will implement a responsive layout and provide a smooth experience to both d
 - Text and bullet color `#31353F`
 - Text color for card subtitles `#31353fcc`
 - Use the Material Icon font
+- Use [this image](https://www.pngix.com/pngfile/big/236-2366727_one-piece-png-wanted-monkey-d-luffy-transparent.png) for the header.
 - The app bar and the top bars/bottom bars _don't_ scroll along with the document.
 
 ### Specs
