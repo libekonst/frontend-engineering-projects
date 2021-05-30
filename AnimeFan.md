@@ -6,7 +6,7 @@ You will use the [Jikan API](https://jikan.moe/) to build an Anime collection ap
 
 ### Design
 
-The design: https://www.figma.com/file/Rai0GbWXaH9fK1KN4bE6g8/AnimeFan?node-id=0%3A1
+The design: <https://www.figma.com/file/Rai0GbWXaH9fK1KN4bE6g8/AnimeFan?node-id=0%3A1>
 
 You will implement a responsive layout and provide a smooth experience to both desktop and mobile users. The design has differences in certain screen sizes but represents the same dataset and has the same functionality.
 
@@ -21,8 +21,8 @@ You will implement a responsive layout and provide a smooth experience to both d
 #### Screens
 
 - The app has two screens, **All Titles** and **Watchlist**, displayed as tabs. The app starts with **All Titles** as the active screen.
-  - Desktop: The tabs are displayed as top tabs with text
-  - Mobile: The tabs are displayed as bottom tabs with icons.
+  - Desktop: The tabs are displayed as top tabs.
+  - Mobile: The tabs are displayed as bottom tabs.
 - Clicking **Watchlist** changes the active view to the **Watchlist** screen and the **Watchlist** tab is highlighted.
   - If the user hasn't added any titles to their watchlist yet, the **Watchlist** screen displays a view informing the user that titles added to the list will be displayed here.
   - If the user adds at least one title to their list, the **Watchlist** screen shows anime title cards and the tab also displays a number in parentheses, indicating the number of titles in the list.
