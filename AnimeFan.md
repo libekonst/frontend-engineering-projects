@@ -60,7 +60,7 @@ You will implement a responsive layout and provide a smooth experience to both d
 
 Use the following endpoint to fetch data about the top 50 Anime titles: `https://api.jikan.moe/v3/top/anime/1`
 
-Explore the response to determine how to satisfy the specs.
+Explore the response to determine how to satisfy the provided specs.
 
 #### Takeaways
 
